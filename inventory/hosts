@@ -7,7 +7,7 @@ nodes
 [OSEv3:vars]
 # SSH user, this user should allow ssh based auth without requiring a password
 ansible_ssh_user=root
-ansible_ssh_pass=VMware1!
+ansible_ssh_pass=cmVMware1!
 openshift_master_default_subdomain=okdapps.dray.local
 
 #os_sdn_network_plugin_name=cni
