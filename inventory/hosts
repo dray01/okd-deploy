@@ -28,7 +28,9 @@ openshift_disable_check=memory_availability,disk_availability,docker_storage,doc
 
 # uncomment the following to enable htpasswd authentication; defaults to DenyAllPasswordIdentityProvider
 openshift_master_identity_providers=[{'name': 'htpasswd_auth', 'login': 'true', 'challenge': 'true', 'kind': 'HTPasswdPasswordIdentityProvider'}]
-openshift_master_htpasswd_file=/root/htpasswd
+#openshift_master_htpasswd_file=/root/htpasswd
+openshift_master_htpasswd_users={'admin':$apr1$YxC6le3h$1Tsfgh8RDzc2tPmPYZlrS1
+
 
 # host group for masters
 [masters]
