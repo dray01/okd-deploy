@@ -42,10 +42,10 @@ okd-master01    ansible_ssh_host=192.168.200.245
 
 # host group for nodes, includes region info
 [nodes]
-#okd-master01    ansible_ssh_host=192.168.200.245 openshift_node_group_name='node-config-all-in-one'
-okd-master01    ansible_ssh_host=192.168.200.245 openshift_node_group_name='node-config-master'
-okd-master01    ansible_ssh_host=192.168.200.245 openshift_node_group_name='node-config-infra'
-okd-master01    ansible_ssh_host=192.168.200.245 openshift_node_group_name='node-config-compute'
+okd-master01    ansible_ssh_host=192.168.200.245 openshift_node_group_name='node-config-all-in-one'
+#okd-master01    ansible_ssh_host=192.168.200.245 openshift_node_group_name='node-config-master'
+#okd-master01    ansible_ssh_host=192.168.200.245 openshift_node_group_name='node-config-infra'
+#okd-master01    ansible_ssh_host=192.168.200.245 openshift_node_group_name='node-config-compute'
 
 
 
