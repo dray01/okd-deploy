@@ -15,8 +15,8 @@ openshift_use_openshift_sdn=true
 #openshift_use_nsx=false
 #openshift_node_sdn_mtu=1500
 openshift_enable_service_catalog=true
-openshift_release="3.11"
-package_version=3.11.21
+openshift_release="3.10"
+#package_version=3.11.21
 
 # If ansible_ssh_user is not root, ansible_become must be set to true
 #ansible_become=true
