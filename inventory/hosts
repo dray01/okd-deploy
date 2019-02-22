@@ -34,13 +34,13 @@ openshift_master_htpasswd_users={'admin': '$apr1$YxC6le3h$1Tsfgh8RDzc2tPmPYZlrS1
 
 # host group for masters
 [masters]
-okd-master01    ansible_ssh_host=10.10.120.135
+okd-master01    ansible_ssh_host=10.10.120.118
 
 # host group for etcd
 [etcd]
-okd-master01    ansible_ssh_host=10.10.120.135
+okd-master01    ansible_ssh_host=10.10.120.118
 # host group for nodes, includes region info
 [nodes]
-okd-master01    ansible_ssh_host=10.10.120.135 openshift_node_group_name='node-config-all-in-one'
+okd-master01    ansible_ssh_host=10.10.120.118 openshift_node_group_name='node-config-all-in-one'
 
 
